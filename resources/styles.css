@@ -8,7 +8,7 @@
     font-size: 16px;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 20px;
 }
 h2 {
@@ -39,9 +39,11 @@ header img {
 }
 header .brand {
     font-family: Top-Secret, impact, serif;
+    margin-bottom: 10px;
 }
 header .tagline {
     font-family: monospace;
+    margin-top: 10px;
 }
 header nav ul {
     display: flex;
