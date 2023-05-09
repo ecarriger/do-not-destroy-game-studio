@@ -40,6 +40,9 @@ header img {
 header .brand {
     font-family: Top-Secret, impact, serif;
 }
+header .tagline {
+    font-family: monospace;
+}
 header nav ul {
     display: flex;
     list-style-type: none;
