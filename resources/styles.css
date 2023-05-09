@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Top-Secret;
+    src: url("./fonts/top-secret-kb/Top Secret.ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +36,9 @@ header img {
     margin: 20px auto;
     height: 400px;
     width: 600px;
+}
+header .brand {
+    font-family: Top-Secret, impact, serif;
 }
 header nav ul {
     display: flex;
