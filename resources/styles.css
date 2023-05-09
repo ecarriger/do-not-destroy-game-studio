@@ -28,22 +28,29 @@ a:hover {
 }
 
 /*** Header ***/
+header .hero {
+    background-image: url(./images/brunno-tozzo-t32lrFimPlU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 500px;
+    width: 70%;
+}
 header h1, header h2 {
     text-align: center;
 }
-header img {
-    display: block;
-    margin: 20px auto;
-    height: 400px;
-    width: 600px;
+header .brand, header .tagline {
+    background-color: rgba(256, 256, 256, .6);
 }
 header .brand {
     font-family: Top-Secret, impact, serif;
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 20px 0 10px 0;
 }
 header .tagline {
     font-family: monospace;
-    margin-top: 10px;
+    margin: 0;
+    padding-bottom: 20px;
 }
 header nav ul {
     display: flex;
