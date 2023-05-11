@@ -21,6 +21,7 @@ p, a {
     font-size: 1rem;
 }
 a {
+    font-family: Helvetica, sans-serif;
     text-decoration: none;
 }
 a:hover {
@@ -52,9 +53,28 @@ header .tagline {
     margin: 0;
     padding-bottom: 20px;
 }
+header nav {
+    margin: auto;
+    width: 50%;
+}
 header nav ul {
+    margin: 25px 0 25px;
     display: flex;
     list-style-type: none;
-    justify-content: center;
-    gap: 16px;
+    justify-content: space-between;
+}
+header nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding: 0 50px 10px 50px;
+}
+header nav li:first-child a{
+    border-bottom: 2px solid rgb(245, 29, 0);
+}
+header nav a:hover {
+    color: rgb(245, 29, 0);
+    cursor: pointer;
+    border-bottom: 2px solid rgb(245, 29, 0);
+    text-decoration: none;
 }
