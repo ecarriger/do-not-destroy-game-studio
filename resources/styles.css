@@ -2,6 +2,11 @@
     font-family: Top-Secret;
     src: url("./fonts/top-secret-kb/Top Secret.ttf");
 }
+@font-face {
+    font-family: Montserrat;
+    font-weight: 400 800;
+    src: url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf");
+  }
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +18,16 @@ h1 {
 }
 h2 {
     font-size: 1.5rem;
-    font-style: italic;
-    margin: 20px;
+    margin: 30px;
 }
 p, a {
     font-family: sans-serif;
     font-size: 1rem;
+}
+p {
+    font-size: 1rem;
+    font-family: Montserrat, Helvetica, sans-serif;
+    margin: 1.5rem 0;
 }
 a {
     font-family: Helvetica, sans-serif;
@@ -84,10 +93,11 @@ header nav a:hover {
 /*** Content ***/
 
 main {
-    margin: auto;
+    margin: 50px auto;
     width: 50%;
 }
 main .monospace-list {
+    display: inline-block;
     font-family: monospace;
     list-style-type: none;
     padding: 1rem;
