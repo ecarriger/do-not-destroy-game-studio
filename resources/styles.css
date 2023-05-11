@@ -53,6 +53,8 @@ header .tagline {
     margin: 0;
     padding-bottom: 20px;
 }
+
+/*** Nav ***/
 header nav {
     margin: auto;
     width: 50%;
@@ -77,4 +79,17 @@ header nav a:hover {
     cursor: pointer;
     border-bottom: 2px solid rgb(245, 29, 0);
     text-decoration: none;
+}
+
+/*** Content ***/
+
+main {
+    margin: auto;
+    width: 50%;
+}
+main .monospace-list {
+    font-family: monospace;
+    list-style-type: none;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .1);
 }
