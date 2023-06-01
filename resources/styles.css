@@ -57,6 +57,9 @@ header .hero {
 header h1, header h3 {
     text-align: center;
 }
+header h1 {
+    color: rgb(245, 29, 0);
+}
 header .brand, header .tagline {
     background-color: rgba(256, 256, 256, .6);
 }
