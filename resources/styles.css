@@ -115,8 +115,12 @@ main .monospace-list {
     display: inline-block;
     font-family: monospace;
     list-style-type: none;
+    margin: 15px;
     padding: 1rem;
     background-color: rgba(0, 0, 0, .1);
+}
+#about .monospace-list {
+    float: right;
 }
 .game-list {
 /*  display: flex;*/
