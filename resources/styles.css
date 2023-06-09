@@ -78,7 +78,7 @@ header .tagline {
 /*** Nav ***/
 nav {
     background-color: rgb(256, 256, 256);
-    margin: 10px auto;
+    margin: 0 auto 10px auto;
     padding: 15px;
     position: sticky;
     top: 0;
